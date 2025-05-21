@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fama Barber Shop and Beauty Salon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-black shadow sticky top-0 z-50">
+      <nav
+        class="container text-white mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-2xl font-bold text-white">Fama Barber Shop</h1>
+        <ul class="flex space-x-6">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="bg-cover bg-center h-screen flex items-center"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      "
+    >
+      <div class="container mx-auto px-6 text-center text-white">
+        <h2 class="text-5xl font-bold mb-4">Fama Barber Shop & Beauty Salon</h2>
+        <p class="text-xl mb-6">Premium Haircuts and Styling in Denton, TX</p>
+        <p class="text-lg mb-6">⭐ 4.6 Stars (116+ Reviews)</p>
+        <a
+          href="#contact"
+          class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700"
+          >Book Now</a
+        >
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white/95">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          Our Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <img
+              src="https://media.istockphoto.com/id/915640558/photo/close-up-of-hairstylists-hands-cutting-strand-of-mans-hair.jpg?s=1024x1024&w=is&k=20&c=MUAowvw1C05of29B-XA4X3XDV4ali73-uybVfmVz3_w="
+              alt="Haircut"
+              class="mx-auto mb-4 rounded-lg"
+            />
+            <h3 class="text-xl font-semibold">Classic Haircuts</h3>
+            <p class="text-gray-600">Precision cuts tailored to your style.</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://media.istockphoto.com/id/1185955900/photo/barber-shaves-the-beard-of-the-client.jpg?s=1024x1024&w=is&k=20&c=qrUHXYP4sFfnrR8tXXybMiKQkq1rv2R22JzbXK1PvaA="
+              alt="Beard Trim"
+              class="mx-auto mb-4 rounded-lg"
+            />
+            <h3 class="text-xl font-semibold">Beard Trims</h3>
+            <p class="text-gray-600">Sharp and clean beard grooming.</p>
+          </div>
+          <div class="text-center">
+            <img
+              src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
+              alt="Beauty Services"
+              class="mx-auto mb-4 rounded-lg"
+            />
+            <h3 class="text-xl font-semibold">Beauty Salon</h3>
+            <p class="text-gray-600">Styling, coloring, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          About Us
+        </h2>
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="md:w-1/2 mb-6 md:mb-0">
+            <img
+              src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+              alt="Barber Shop"
+              class="rounded-lg"
+            />
+          </div>
+          <div class="md:w-1/2 md:pl-12">
+            <p class="text-gray-600 mb-4">
+              Fama Barber Shop and Beauty Salon is your go-to destination for
+              premium grooming in Denton, TX. With a 4.6-star rating from over
+              116 reviews, our skilled barbers and stylists deliver top-notch
+              services in a welcoming environment.
+            </p>
+            <p class="text-gray-600">
+              Located at 500 N Bell Ave #109, Denton, we're open until 7 PM
+              daily. Note: Some customers find our services pricier compared to
+              other local barbershops.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+          Contact Us
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+            <p class="text-gray-600 mb-2">
+              <strong>Location:</strong> 500 N Bell Ave #109, Denton, TX 76209,
+              United States,
+            </p>
+            <p class="text-gray-600 mb-2">
+              <strong>Phone:</strong>
+              <a href="tel:+19406129127" class="text-blue-600">
+                +1 940-612-9127</a
+              >
+            </p>
+            <p class="text-gray-600 mb-2">
+              <strong>Status:</strong> Open ⋅ Closes 7 PM
+            </p>
+            <p class="text-gray-600 mb-2">
+              <strong>Directions:</strong>
+              <a
+                href="https://maps.google.com"
+                target="_blank"
+                class="text-blue-600"
+                >View on Google Maps</a
+              >
+            </p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-4">Book an Appointment</h3>
+            <div class="space-y-4">
+              <input
+                type="text"
+                placeholder="Name"
+                class="w-full p-3 border rounded-lg"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-full p-3 border rounded-lg"
+              />
+              <textarea
+                placeholder="Message"
+                class="w-full p-3 border rounded-lg h-32"
+              ></textarea>
+              <button
+                class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto px-6 text-center">
+        <p>
+          &copy; 2025 Fama Barber Shop and Beauty Salon. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
